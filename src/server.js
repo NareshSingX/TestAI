@@ -5,7 +5,7 @@ import { PublicClientApplication } from "@azure/msal-node";
 import { categorizeMessage, escapeHtml } from "./organize.js";
 
 const port = Number.parseInt(process.env.PORT ?? "3000", 10);
-const host = process.env.HOST ?? "127.0.0.1";
+const host = "localhost";
 const redirectUri = process.env.MSAL_REDIRECT_URI ?? "http://localhost:3000/auth/callback";
 const clientId = process.env.MSAL_CLIENT_ID;
 const tenantId = process.env.MSAL_TENANT_ID;

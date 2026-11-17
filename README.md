@@ -51,7 +51,7 @@ npm test
 npm start
 ```
 
-Open `http://localhost:3000` and choose **Sign in with Microsoft**. Enter credentials only on the organisation's Microsoft sign-in page. The server binds to loopback (`127.0.0.1`) and is intended for local development.
+Open `http://localhost:3000` and choose **Sign in with Microsoft**. Enter credentials only on the organisation's Microsoft sign-in page. The server binds to `localhost` only and is intended for local development.
 
 ## Security notes
 
