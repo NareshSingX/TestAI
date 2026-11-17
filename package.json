@@ -1,0 +1,18 @@
+{
+  "name": "mail-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local, read-only Microsoft 365 mail organizer starter",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^7.2.2",
+    "dotenv": "^16.6.1"
+  }
+}
